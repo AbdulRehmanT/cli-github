@@ -9,134 +9,175 @@
 </head>
 
 <body>
-    <!-- Header -->
-    <div>
-        <header class="color-bg">
-            <nav class="main-header flex">
-                <div class="header-left flex">
-                    <a class="text-grey" href="#"><img class="header-logo" src="./assets/GitHub-logo.png"
-                            alt="Github-logo"></a>
-                    <a class="text-grey" href="#">CLI</a>
-                </div>
-                <div class="header-right">
-                    <a class="text-grey" href="#">Manual</a>
-                    <a class="text-grey" href="#">Release notes</a>
-                </div>
-            </nav>
-        </header>
-    </div>
-    <!-- Hero Section -->
-    <div class="color-bg">
-        <div class="hero-section flex color-bg">
-            <h1 class="h1-txt">Take GitHub to the command line</h1>
-            <p class="text-dark-grey p1-txt">GitHub CLI brings GitHub to your terminal. Free and open source.</p>
-            <a href="#" class="btn">Download for Windows</a>
-            <a href="#" class="lst-1">View installation instructions →</a>
-        </div>
-    </div>
-    <!-- Position Relative Section -->
-    <!-- <div class="pos-rel-sec">
-        <div class="">
-            <h3 class=""><span class="text-blue">$</span>gh alias set</h3>
-            <p>Create a shortcut for a gh command.</p>
-        </div>
+    <div class="dark-mode">
+        <!-- Header -->
         <div>
-            <div>
-                <div>
-                    <div class="cr-1"></div>
-                </div>
-                <div>
-                </div>
-            </div>
-            <div>
-                <span>
-                    $ gh alias set bugs 'issue list --label="bugs"'<br>
-                    - Adding alias for bugs: issue list --label="bugs"<br>
-                    <span class="text-green">✓</span> Added alias.<br>
-                    <br>
-                    <span>$ gh bugs</span><br>
-                    <br>
-                    <strong class="text-white">Showing 2 of 7 issues in cli/cli that match your search</strong><br>
-                    <br>
-                    <span>
-                        <span class="d-inline-block text-green" style="width: 30px">#19</span>
-                        <span class="text-white">Pagination request returns empty JSON</span>
-                        <span class="text-gray">(bug)</span>
-                    </span>
-                    <br>
-                    <span>
-                        <span>#21</span>
-                        <span>Error raised when passing valid parameters</span>
-                        <span>(bug)</span>
-                    </span>
-                    <br>
-                </span>
-            </div>
-        </div>
-    </div>
-    <div>
-        <a href="#">View all GitHub CLI commands →</a>
-    </div>
-    </div> -->
-    <!-- Lower Position Relative Section -->
-    <div class="low-pos-rel">
-        <div class="low-pos">
-            <h2 class="h2-txt">
-                Goodbye, context switching. Hello, terminal.
-            </h2>
-            <div class="low-con flex">
-                <div class="low-con-txt flex">
-                    <h3 class="h3-txt">Your entire GitHub workflow</h3>
-                    <p class="p2-txt">Work with issues, pull requests, checks, releases and more.</p>
-                    <a class="con-lnk" href="#">View all GitHub CLI commands →</a>
-                </div>
-
-                <div class="low-con-txt flex">
-                    <h3 class="h3-txt">Script and customize</h3>
-                    <p class="p2-txt">Call the GitHub API to script almost any action, and set a custom alias for any
-                        command.</p>
-                    <a class="con-lnk" href="#">Learn about aliases and API →</a>
-                </div>
-
-                <div class="low-con-txt flex">
-                    <h3 class="h3-txt">Enterprise-ready</h3>
-                    <p class="p2-txt">Connect to GitHub Enterprise Server in addition to GitHub.com.</p>
-                    <a class="con-lnk" href="#">Get set up with Enterprise →</a>
-                </div>
-
-                <div class="low-con-txt flex">
-                    <h3 class="h3-txt">We &lt;3 community</h3>
-                    <p class="p2-txt">GitHub CLI is open source and ready for your contributions.</p>
-                    <a class="con-lnk" href="#">Contribute to CLI →</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Part 2 -Lower Position Relative section -->
-    <div class="low-pos-rel-2">
-        <div class="pos-rel-2">
-            <div class="pos-container">
-                <div class="pos-upper">
-                    <h2 class="pos-h2">Try GitHub on the command&nbsp;line</h2>
-                    <p class="pos-p">GitHub CLI brings GitHub to your terminal. Free and open source.</p>
-                    <div class="btn-2"><a href="#">Download for Windows</a></div>
-                    <div class="lst-pos"><a href="#">View installation instructions</a></div>
-                </div>
-            </div>
-        </div>
-        <div class="pos-rel-2-img">
-            <img src="./assets/square-pattern.png" alt="square-pattern" height="450" width="1680">
+            <header class="color-bg">
+                <nav class="main-header flex">
+                    <!-- <div class="header-left flex"> -->
+                    <a class="text-grey header-left flex" href="#"><img class="header-logo"
+                            src="./assets/GitHub-logo.png" alt="Github-logo">CLI</a>
+                    <!-- <a class="text-grey" href="#">CLI</a> -->
+                    <!-- </div> -->
+                    <div class="header-right">
+                        <a class="text-grey" href="#">Manual</a>
+                        <a class="text-grey" href="#">Release notes</a>
+                    </div>
+                </nav>
+            </header>
         </div>
 
-    </div>
+        <!-- Hero Section -->
 
-    <!-- Footer -->
-    <footer>
+        <main id="main">
+            <div class="container color-bg">
+                <div class="hero-section flex color-bg">
+                    <h1 class="h1-txt">Take GitHub to the command line</h1>
+                    <p class="text-dark-grey p1-txt">GitHub CLI brings GitHub to your terminal. Free and open source.
+                    </p>
+                    <a href="#" class="btn">Download for Windows</a>
+                    <a href="#" class="lst-1">View installation instructions →</a>
+                </div>
+            </div>
+            <!-- Position Relative Section -->
+            <div class="container pos-rel-sec">
+                <div class="container upper-pr flex">
+                    <h3 class="h3prs-txt">
+                        <span class="text-blue span-d">$</span>
+                        <span>&nbsp; gh release create</span>
+                    </h3>
+                    <p class="pprs-txt">Create a shortcut for a gh command.</p>
+                    <div class="main-pos-rel-middle" style="height: 480px;
+                    border: 1px solid rgba(255, 255, 255, 0.1);">
+                        <div class="pos-rel-middle">
+                            <div class="main-circle-div">
+                                <div class="prs-circle"></div>
+                                <div class="prs-circle"></div>
+                                <div class="prs-circle"></div>
+                            </div>
+                            <div class="play-pause-btn">
+                                <div class="pause-btn" hidden="true">
+                                    <a href="#">
+                                        <img class="pause-butn" src="./assets/pause.png" alt="pause-btn">
+                                    </a>
+                                </div>
+                                <div class="play-btn">
+                                    <a href="#">
+                                        <img class="play-butn" src="./assets/play.png" alt="play-btn">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pos-middle-txt">
+                            <div class="pos-m-span-txt">
+                                <div>
+                                    <span>$ gh alias set bugs 'issue list --label="bugs"</span>
+                                </div>
+                                <div>
+                                    <span>- Adding alias for bugs: issue list --label="bugs"</span>
+                                </div>
+                                <div>
+                                    <span class="text-green">✓</span>Added alias.
+                                </div>
+                                <br>
+                                <div>
+                                    <span>$ gh bugs</span>
+                                </div>
+                                <br>
+                                <div>
+                                    <strong class="text-white">Showing 2 of 7 issues in cli/cli that match your
+                                        search</strong>
+                                </div>
+                                <br>
+                                <div>
+                                    <span>
+                                        <span class="d-inline-block text-green" style="width: 30px">#19</span>
+                                        <span class="text-white">Pagination request returns empty JSON</span>
+                                        <span class="text-gray">(bug)</span>
+                                    </span>
+                                </div>
+                                <div>
+                                    <span>
+                                        <span class="d-inline-block text-green" style="width: 30px">#21</span>
+                                        <span>Error raised when passing valid parameters</span>
+                                        <span>(bug)</span>
+                                    </span>
+                                </div>
+                                <br>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="prs-div container flex">
+                    <a class="inst" href="#">View all GitHub CLI commands →</a>
+                </div>
+            </div>
+    </div>
+    <div class="light-mode">
+        <!-- Lower Position Relative Section -->
+        <div class="container low-pos-rel">
+            <div class="low-pos">
+                <h2 class="h2-txt">
+                    Goodbye, context switching. Hello, terminal.
+                </h2>
+                <div class="low-con flex">
+                    <div class="low-con-txt flex">
+                        <h3 class="h3-txt">Your entire GitHub workflow</h3>
+                        <p class="p2-txt">Work with issues, pull requests, checks, releases and more.</p>
+                        <a class="con-lnk" href="#">View all GitHub CLI commands →</a>
+                    </div>
+
+                    <div class="low-con-txt flex">
+                        <h3 class="h3-txt">Script and customize</h3>
+                        <p class="p2-txt">Call the GitHub API to script almost any action, and set a custom alias
+                            for
+                            any
+                            command.</p>
+                        <a class="con-lnk" href="#">Learn about aliases and API →</a>
+                    </div>
+
+                    <div class="low-con-txt flex">
+                        <h3 class="h3-txt">Enterprise-ready</h3>
+                        <p class="p2-txt">Connect to GitHub Enterprise Server in addition to GitHub.com.</p>
+                        <a class="con-lnk" href="#">Get set up with Enterprise →</a>
+                    </div>
+
+                    <div class="low-con-txt flex">
+                        <h3 class="h3-txt">We &lt;3 community</h3>
+                        <p class="p2-txt">GitHub CLI is open source and ready for your contributions.</p>
+                        <a class="con-lnk" href="#">Contribute to CLI →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Part 2 -Lower Position Relative section -->
+        <div class="container low-pos-rel-2">
+            <div class="pos-rel-2">
+                <div class="pos-container">
+                    <div class="pos-upper">
+                        <h2 class="pos-h2">Try GitHub on the command&nbsp;line</h2>
+                        <p class="pos-p">GitHub CLI brings GitHub to your terminal. Free and open source.</p>
+                        <div class="btn-2"><a href="#">Download for Windows</a></div>
+                        <div class="lst-pos"><a href="#">View installation instructions</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="pos-rel-2-img">
+                <img src="./assets/square-pattern.png" alt="square-pattern" height="450" width="1680">
+            </div>
+
+        </div>
+    </div>
+    </main>
+
+    Footer
+    <!-- <footer class="contianer">
         <div class="container flex footer-container">
             <nav class="upper-footer-container flex">
                 <div class="left-footer">
                     <a href="#" class="main-logo">
-                        <img src="./assets/GitHub.png" alt="Logo">
+                        <img src="./assets/GitHub.png" alt="GithubLogo">
                     </a>
                 </div>
                 <div class="right-footer flex">
@@ -185,7 +226,8 @@
                 </div>
             </nav>
         </div>
-    </footer>
+    </footer> -->
+
 </body>
 
 </html>
